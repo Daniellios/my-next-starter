@@ -15,6 +15,16 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/redux/types.js",
+    "src/store/store.js",
+    "src/store/store.js",
+    "src/redux/types.js",
+    "src/styles/theme.js",
+    "src/styles/globals.js"
+  ],
   "exclude": ["node_modules"]
 }
