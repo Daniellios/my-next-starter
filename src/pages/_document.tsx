@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
       <Html lang="en-GB">
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
         </Head>
