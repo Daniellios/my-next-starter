@@ -1,13 +1,11 @@
 import React from "react"
 import styled from "styled-components"
 import { Layout } from "../layout/Layout"
-
-import { Counter } from "../components/counter/Counter"
-
+import Content from "../components/content/Content"
 export default function Home() {
   return (
     <Layout>
-      <Counter></Counter>
+      <Content></Content>
     </Layout>
   )
 }
