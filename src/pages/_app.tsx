@@ -1,7 +1,7 @@
-import { store } from "../store/store"
-import { Provider } from "react-redux"
-import Theme from "../styles/theme"
-import React, { Component } from "react"
+import { store } from '../store/store';
+import { Provider } from 'react-redux';
+import Theme from '@/styles/ThemeProvider';
+import React, { Component } from 'react';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -10,5 +10,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </Theme>
     </Provider>
-  )
+  );
 }
