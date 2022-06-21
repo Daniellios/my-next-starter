@@ -6,6 +6,4 @@ export const Container = styled.main`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-  padding-top: 10rem;
 `;

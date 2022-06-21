@@ -24,8 +24,8 @@
     "**/*.ts",
     "**/*.tsx",
     "src/redux/types.js",
-    "src/store/store.js",
-    "src/store/store.js",
+    "src/redux/store.ts",
+    "src/redux/store.ts",
     "src/redux/types.js",
     "src/styles/ThemeProvider.tsx",
     "src/styles/GloabalStyles.js"
