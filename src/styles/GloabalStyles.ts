@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
@@ -31,7 +31,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${(props) => props.theme.fonts.title};
     font-size: 1.6rem;
     background-color:  ${(props) => props.theme.colors.white};
-    color: ${(props) => props.theme.colors.white};
+    color: ${(props) => props.theme.colors.primary1};
     cursor: default;
   }
   h1,h2,h3,h4,h5,h6,button {
@@ -50,6 +50,6 @@ const GlobalStyles = createGlobalStyle`
     height: 100%;
   }
 
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles
